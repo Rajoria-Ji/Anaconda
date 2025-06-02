@@ -29,7 +29,7 @@ print(copy)  # copy of the list where chnages not occured
 
 
 
-#taking int(input from the user in l)ist
+#taking input from the user in list
 
 list1= []  #make a empty list
 l1 = int(input("Enetr the value:"))
