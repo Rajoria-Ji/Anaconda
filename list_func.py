@@ -26,3 +26,25 @@ print(Index)
 print(poped)  # printed that last index value we stored
 print(animals)  #print the list after all changes
 print(copy)  # copy of the list where chnages not occured
+
+
+
+#taking int(input from the user in l)ist
+
+list1= []  #make a empty list
+l1 = int(input("Enetr the value:"))
+list1.append(l1)
+l2 = int(input("Enetr the value:"))
+list1.append(l2)
+l3 = int(input("Enetr the value:"))
+list1.append(l3)
+l4 = int(input("Enetr the value:"))
+list1.append(l4)
+l5 = int(input("Enetr the value:"))
+list1.append(l5)
+l6 = int(input("Enetr the value:"))
+list1.append(l6)
+
+print(list1)
+list1.sort()
+print(list1)
