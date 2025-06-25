@@ -15,12 +15,12 @@ print(s)
 s.update([7,8,6])   # add multiple elements in a set
 s.remove("Sumit")    # remove a element from the list key error if not exist 
 s.discard("Sumit")   # remove a specific element not rise error if not exist
-p=s.pop()           # remove a rendom element
+p=s.pop()           # remove a random element
 print(p)            # print a random element which stored in p by pop
 print(s)
 print(s.union(u))   # combine elements of both set without duplication
 print(s.intersection(c))  # print the common elements of both set
 print(s.difference(c))   #  print the elements which is not common in both set
 print(c.issubset(s))    # checks is c is a subset of s or not 
-print(u.isdisjoint(c))   #checks is c and u have common elements or not
+print(u.isdisjoint(c))   #checks is c and u have not common elements or not
 
